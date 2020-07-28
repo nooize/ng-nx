@@ -1,0 +1,8 @@
+<h3 *ngIf="title">{{ title }}</h3>
+<ul class="list">
+  <li *ngFor="let row of getKeys()"
+      [class.selected]="isSelected(row)"
+      (click)="onSelect(row)">
+    {{ getTitle(row)  }}
+  </li>
+</ul>

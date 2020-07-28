@@ -1,0 +1,23 @@
+{
+  "name": "ng-nx",
+  "version": "0.1",
+  "description": "Ng Nx UI components and helpers for Angular applications",
+  "main": "ng-nx.module.ts",
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "devDependencies": {
+    "@angular/common": "^10.0.5",
+    "@angular/core": "^10.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nooize/ng-nx.git"
+  },
+  "authors": ["Taras Shumeiko"],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nooize/ng-nx.git/issues"
+  },
+  "homepage": "https://gitlab.com/envisionx/envx-ciam-connect#README"
+}

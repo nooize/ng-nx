@@ -1,0 +1,46 @@
+@import '../../styles/const.scss';
+
+:host {
+  @extend .nx-options-selector;
+}
+
+.nx-options-selector {
+  display: block;
+  margin-bottom: 16px;
+
+  > .list {
+
+    display: block;
+    padding: 0;
+    margin:0;
+
+    > li {
+      display: block;
+      margin: 0 3px 2px 0;
+      padding:2px 4px;
+      color: #444;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px;
+      border: solid 1px transparent;
+      border-radius: 2px;
+      cursor: pointer;
+
+      &:hover {
+        border-color: rgba(0, 0, 24, 0.09);
+      }
+
+      &.selected {
+        color: rgba(255, 255, 255, 0.9);
+        background: $button-color;
+      }
+
+    }
+
+  }
+
+  &.list  > .list > .item {
+    display: block;
+  }
+
+}
